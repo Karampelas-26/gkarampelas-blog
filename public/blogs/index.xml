@@ -1,0 +1,1327 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Blogs on George Karampelas</title>
+    <link>http://localhost:1313/blogs/</link>
+    <description>Recent content in Blogs on George Karampelas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>george.karampelas.26@gmail.com (George Karampelas)</managingEditor>
+    <webMaster>george.karampelas.26@gmail.com (George Karampelas)</webMaster>
+    <copyright>George Karampelas (CC BY 4.0)</copyright>
+    <lastBuildDate>Mon, 21 Oct 2024 23:16:47 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bad Quality Code</title>
+      <link>http://localhost:1313/blogs/bad-quality-code-copy-10/</link>
+      <pubDate>Mon, 21 Oct 2024 23:16:47 +0300</pubDate><author>george.karampelas.26@gmail.com (George Karampelas)</author>
+      <guid>http://localhost:1313/blogs/bad-quality-code-copy-10/</guid>
+      <description>&lt;p&gt;As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&amp;rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &amp;ldquo;PURE&amp;rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &ldquo;PURE&rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.</p>
+<p>Let&rsquo;s talk with an example, you want to create a service that handle all the business logic of an entity and for one action this entity has numerous scenarios. As I believe it is a bad practice to use just a switch and split the code on numerous private methods to make the code look good, it is not. Do you know why?</p>
+<ul>
+<li>
+<p>I can&rsquo;t read it</p>
+</li>
+<li>
+<p>I can&rsquo;t maintain it</p>
+</li>
+<li>
+<p>I can&rsquo;t test it</p>
+</li>
+<li>
+<p>I can&rsquo;t extend it</p>
+</li>
+<li>
+<p>I can&rsquo;t reuse it</p>
+</li>
+<li>
+<p>I can&rsquo;t document it</p>
+</li>
+</ul>
+<p>For all these reasons it would be better to split this business logic one more services if it is necessary or you can use Strategy Pattern. Feel free to explore the huge world of programming.</p>
+<p>As I like, I code with TDD so I try to code the way I can test, obviously not using @Autowired. I write my basic scenarios with empty methods that I am gonna implement after my basic tests I start implement as I go my code is ugly and not perfect or acceptable for a merge request, but it works it passes the tests then I refactor my code to be more readable, maintainable and editable as the tests are green.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Bad Quality Code</title>
+      <link>http://localhost:1313/blogs/bad-quality-code-copy-11/</link>
+      <pubDate>Mon, 21 Oct 2024 23:16:47 +0300</pubDate><author>george.karampelas.26@gmail.com (George Karampelas)</author>
+      <guid>http://localhost:1313/blogs/bad-quality-code-copy-11/</guid>
+      <description>&lt;p&gt;As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&amp;rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &amp;ldquo;PURE&amp;rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &ldquo;PURE&rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.</p>
+<p>Let&rsquo;s talk with an example, you want to create a service that handle all the business logic of an entity and for one action this entity has numerous scenarios. As I believe it is a bad practice to use just a switch and split the code on numerous private methods to make the code look good, it is not. Do you know why?</p>
+<ul>
+<li>
+<p>I can&rsquo;t read it</p>
+</li>
+<li>
+<p>I can&rsquo;t maintain it</p>
+</li>
+<li>
+<p>I can&rsquo;t test it</p>
+</li>
+<li>
+<p>I can&rsquo;t extend it</p>
+</li>
+<li>
+<p>I can&rsquo;t reuse it</p>
+</li>
+<li>
+<p>I can&rsquo;t document it</p>
+</li>
+</ul>
+<p>For all these reasons it would be better to split this business logic one more services if it is necessary or you can use Strategy Pattern. Feel free to explore the huge world of programming.</p>
+<p>As I like, I code with TDD so I try to code the way I can test, obviously not using @Autowired. I write my basic scenarios with empty methods that I am gonna implement after my basic tests I start implement as I go my code is ugly and not perfect or acceptable for a merge request, but it works it passes the tests then I refactor my code to be more readable, maintainable and editable as the tests are green.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Bad Quality Code</title>
+      <link>http://localhost:1313/blogs/bad-quality-code-copy-12/</link>
+      <pubDate>Mon, 21 Oct 2024 23:16:47 +0300</pubDate><author>george.karampelas.26@gmail.com (George Karampelas)</author>
+      <guid>http://localhost:1313/blogs/bad-quality-code-copy-12/</guid>
+      <description>&lt;p&gt;As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&amp;rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &amp;ldquo;PURE&amp;rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &ldquo;PURE&rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.</p>
+<p>Let&rsquo;s talk with an example, you want to create a service that handle all the business logic of an entity and for one action this entity has numerous scenarios. As I believe it is a bad practice to use just a switch and split the code on numerous private methods to make the code look good, it is not. Do you know why?</p>
+<ul>
+<li>
+<p>I can&rsquo;t read it</p>
+</li>
+<li>
+<p>I can&rsquo;t maintain it</p>
+</li>
+<li>
+<p>I can&rsquo;t test it</p>
+</li>
+<li>
+<p>I can&rsquo;t extend it</p>
+</li>
+<li>
+<p>I can&rsquo;t reuse it</p>
+</li>
+<li>
+<p>I can&rsquo;t document it</p>
+</li>
+</ul>
+<p>For all these reasons it would be better to split this business logic one more services if it is necessary or you can use Strategy Pattern. Feel free to explore the huge world of programming.</p>
+<p>As I like, I code with TDD so I try to code the way I can test, obviously not using @Autowired. I write my basic scenarios with empty methods that I am gonna implement after my basic tests I start implement as I go my code is ugly and not perfect or acceptable for a merge request, but it works it passes the tests then I refactor my code to be more readable, maintainable and editable as the tests are green.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Bad Quality Code</title>
+      <link>http://localhost:1313/blogs/bad-quality-code-copy-13/</link>
+      <pubDate>Mon, 21 Oct 2024 23:16:47 +0300</pubDate><author>george.karampelas.26@gmail.com (George Karampelas)</author>
+      <guid>http://localhost:1313/blogs/bad-quality-code-copy-13/</guid>
+      <description>&lt;p&gt;As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&amp;rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &amp;ldquo;PURE&amp;rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &ldquo;PURE&rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.</p>
+<p>Let&rsquo;s talk with an example, you want to create a service that handle all the business logic of an entity and for one action this entity has numerous scenarios. As I believe it is a bad practice to use just a switch and split the code on numerous private methods to make the code look good, it is not. Do you know why?</p>
+<ul>
+<li>
+<p>I can&rsquo;t read it</p>
+</li>
+<li>
+<p>I can&rsquo;t maintain it</p>
+</li>
+<li>
+<p>I can&rsquo;t test it</p>
+</li>
+<li>
+<p>I can&rsquo;t extend it</p>
+</li>
+<li>
+<p>I can&rsquo;t reuse it</p>
+</li>
+<li>
+<p>I can&rsquo;t document it</p>
+</li>
+</ul>
+<p>For all these reasons it would be better to split this business logic one more services if it is necessary or you can use Strategy Pattern. Feel free to explore the huge world of programming.</p>
+<p>As I like, I code with TDD so I try to code the way I can test, obviously not using @Autowired. I write my basic scenarios with empty methods that I am gonna implement after my basic tests I start implement as I go my code is ugly and not perfect or acceptable for a merge request, but it works it passes the tests then I refactor my code to be more readable, maintainable and editable as the tests are green.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Bad Quality Code</title>
+      <link>http://localhost:1313/blogs/bad-quality-code-copy-14/</link>
+      <pubDate>Mon, 21 Oct 2024 23:16:47 +0300</pubDate><author>george.karampelas.26@gmail.com (George Karampelas)</author>
+      <guid>http://localhost:1313/blogs/bad-quality-code-copy-14/</guid>
+      <description>&lt;p&gt;As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&amp;rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &amp;ldquo;PURE&amp;rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &ldquo;PURE&rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.</p>
+<p>Let&rsquo;s talk with an example, you want to create a service that handle all the business logic of an entity and for one action this entity has numerous scenarios. As I believe it is a bad practice to use just a switch and split the code on numerous private methods to make the code look good, it is not. Do you know why?</p>
+<ul>
+<li>
+<p>I can&rsquo;t read it</p>
+</li>
+<li>
+<p>I can&rsquo;t maintain it</p>
+</li>
+<li>
+<p>I can&rsquo;t test it</p>
+</li>
+<li>
+<p>I can&rsquo;t extend it</p>
+</li>
+<li>
+<p>I can&rsquo;t reuse it</p>
+</li>
+<li>
+<p>I can&rsquo;t document it</p>
+</li>
+</ul>
+<p>For all these reasons it would be better to split this business logic one more services if it is necessary or you can use Strategy Pattern. Feel free to explore the huge world of programming.</p>
+<p>As I like, I code with TDD so I try to code the way I can test, obviously not using @Autowired. I write my basic scenarios with empty methods that I am gonna implement after my basic tests I start implement as I go my code is ugly and not perfect or acceptable for a merge request, but it works it passes the tests then I refactor my code to be more readable, maintainable and editable as the tests are green.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Bad Quality Code</title>
+      <link>http://localhost:1313/blogs/bad-quality-code-copy-15/</link>
+      <pubDate>Mon, 21 Oct 2024 23:16:47 +0300</pubDate><author>george.karampelas.26@gmail.com (George Karampelas)</author>
+      <guid>http://localhost:1313/blogs/bad-quality-code-copy-15/</guid>
+      <description>&lt;p&gt;As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&amp;rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &amp;ldquo;PURE&amp;rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &ldquo;PURE&rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.</p>
+<p>Let&rsquo;s talk with an example, you want to create a service that handle all the business logic of an entity and for one action this entity has numerous scenarios. As I believe it is a bad practice to use just a switch and split the code on numerous private methods to make the code look good, it is not. Do you know why?</p>
+<ul>
+<li>
+<p>I can&rsquo;t read it</p>
+</li>
+<li>
+<p>I can&rsquo;t maintain it</p>
+</li>
+<li>
+<p>I can&rsquo;t test it</p>
+</li>
+<li>
+<p>I can&rsquo;t extend it</p>
+</li>
+<li>
+<p>I can&rsquo;t reuse it</p>
+</li>
+<li>
+<p>I can&rsquo;t document it</p>
+</li>
+</ul>
+<p>For all these reasons it would be better to split this business logic one more services if it is necessary or you can use Strategy Pattern. Feel free to explore the huge world of programming.</p>
+<p>As I like, I code with TDD so I try to code the way I can test, obviously not using @Autowired. I write my basic scenarios with empty methods that I am gonna implement after my basic tests I start implement as I go my code is ugly and not perfect or acceptable for a merge request, but it works it passes the tests then I refactor my code to be more readable, maintainable and editable as the tests are green.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Bad Quality Code</title>
+      <link>http://localhost:1313/blogs/bad-quality-code-copy-16/</link>
+      <pubDate>Mon, 21 Oct 2024 23:16:47 +0300</pubDate><author>george.karampelas.26@gmail.com (George Karampelas)</author>
+      <guid>http://localhost:1313/blogs/bad-quality-code-copy-16/</guid>
+      <description>&lt;p&gt;As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&amp;rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &amp;ldquo;PURE&amp;rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &ldquo;PURE&rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.</p>
+<p>Let&rsquo;s talk with an example, you want to create a service that handle all the business logic of an entity and for one action this entity has numerous scenarios. As I believe it is a bad practice to use just a switch and split the code on numerous private methods to make the code look good, it is not. Do you know why?</p>
+<ul>
+<li>
+<p>I can&rsquo;t read it</p>
+</li>
+<li>
+<p>I can&rsquo;t maintain it</p>
+</li>
+<li>
+<p>I can&rsquo;t test it</p>
+</li>
+<li>
+<p>I can&rsquo;t extend it</p>
+</li>
+<li>
+<p>I can&rsquo;t reuse it</p>
+</li>
+<li>
+<p>I can&rsquo;t document it</p>
+</li>
+</ul>
+<p>For all these reasons it would be better to split this business logic one more services if it is necessary or you can use Strategy Pattern. Feel free to explore the huge world of programming.</p>
+<p>As I like, I code with TDD so I try to code the way I can test, obviously not using @Autowired. I write my basic scenarios with empty methods that I am gonna implement after my basic tests I start implement as I go my code is ugly and not perfect or acceptable for a merge request, but it works it passes the tests then I refactor my code to be more readable, maintainable and editable as the tests are green.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Bad Quality Code</title>
+      <link>http://localhost:1313/blogs/bad-quality-code-copy-17/</link>
+      <pubDate>Mon, 21 Oct 2024 23:16:47 +0300</pubDate><author>george.karampelas.26@gmail.com (George Karampelas)</author>
+      <guid>http://localhost:1313/blogs/bad-quality-code-copy-17/</guid>
+      <description>&lt;p&gt;As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&amp;rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &amp;ldquo;PURE&amp;rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &ldquo;PURE&rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.</p>
+<p>Let&rsquo;s talk with an example, you want to create a service that handle all the business logic of an entity and for one action this entity has numerous scenarios. As I believe it is a bad practice to use just a switch and split the code on numerous private methods to make the code look good, it is not. Do you know why?</p>
+<ul>
+<li>
+<p>I can&rsquo;t read it</p>
+</li>
+<li>
+<p>I can&rsquo;t maintain it</p>
+</li>
+<li>
+<p>I can&rsquo;t test it</p>
+</li>
+<li>
+<p>I can&rsquo;t extend it</p>
+</li>
+<li>
+<p>I can&rsquo;t reuse it</p>
+</li>
+<li>
+<p>I can&rsquo;t document it</p>
+</li>
+</ul>
+<p>For all these reasons it would be better to split this business logic one more services if it is necessary or you can use Strategy Pattern. Feel free to explore the huge world of programming.</p>
+<p>As I like, I code with TDD so I try to code the way I can test, obviously not using @Autowired. I write my basic scenarios with empty methods that I am gonna implement after my basic tests I start implement as I go my code is ugly and not perfect or acceptable for a merge request, but it works it passes the tests then I refactor my code to be more readable, maintainable and editable as the tests are green.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Bad Quality Code</title>
+      <link>http://localhost:1313/blogs/bad-quality-code-copy-18/</link>
+      <pubDate>Mon, 21 Oct 2024 23:16:47 +0300</pubDate><author>george.karampelas.26@gmail.com (George Karampelas)</author>
+      <guid>http://localhost:1313/blogs/bad-quality-code-copy-18/</guid>
+      <description>&lt;p&gt;As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&amp;rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &amp;ldquo;PURE&amp;rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &ldquo;PURE&rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.</p>
+<p>Let&rsquo;s talk with an example, you want to create a service that handle all the business logic of an entity and for one action this entity has numerous scenarios. As I believe it is a bad practice to use just a switch and split the code on numerous private methods to make the code look good, it is not. Do you know why?</p>
+<ul>
+<li>
+<p>I can&rsquo;t read it</p>
+</li>
+<li>
+<p>I can&rsquo;t maintain it</p>
+</li>
+<li>
+<p>I can&rsquo;t test it</p>
+</li>
+<li>
+<p>I can&rsquo;t extend it</p>
+</li>
+<li>
+<p>I can&rsquo;t reuse it</p>
+</li>
+<li>
+<p>I can&rsquo;t document it</p>
+</li>
+</ul>
+<p>For all these reasons it would be better to split this business logic one more services if it is necessary or you can use Strategy Pattern. Feel free to explore the huge world of programming.</p>
+<p>As I like, I code with TDD so I try to code the way I can test, obviously not using @Autowired. I write my basic scenarios with empty methods that I am gonna implement after my basic tests I start implement as I go my code is ugly and not perfect or acceptable for a merge request, but it works it passes the tests then I refactor my code to be more readable, maintainable and editable as the tests are green.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Bad Quality Code</title>
+      <link>http://localhost:1313/blogs/bad-quality-code-copy-19/</link>
+      <pubDate>Mon, 21 Oct 2024 23:16:47 +0300</pubDate><author>george.karampelas.26@gmail.com (George Karampelas)</author>
+      <guid>http://localhost:1313/blogs/bad-quality-code-copy-19/</guid>
+      <description>&lt;p&gt;As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&amp;rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &amp;ldquo;PURE&amp;rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &ldquo;PURE&rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.</p>
+<p>Let&rsquo;s talk with an example, you want to create a service that handle all the business logic of an entity and for one action this entity has numerous scenarios. As I believe it is a bad practice to use just a switch and split the code on numerous private methods to make the code look good, it is not. Do you know why?</p>
+<ul>
+<li>
+<p>I can&rsquo;t read it</p>
+</li>
+<li>
+<p>I can&rsquo;t maintain it</p>
+</li>
+<li>
+<p>I can&rsquo;t test it</p>
+</li>
+<li>
+<p>I can&rsquo;t extend it</p>
+</li>
+<li>
+<p>I can&rsquo;t reuse it</p>
+</li>
+<li>
+<p>I can&rsquo;t document it</p>
+</li>
+</ul>
+<p>For all these reasons it would be better to split this business logic one more services if it is necessary or you can use Strategy Pattern. Feel free to explore the huge world of programming.</p>
+<p>As I like, I code with TDD so I try to code the way I can test, obviously not using @Autowired. I write my basic scenarios with empty methods that I am gonna implement after my basic tests I start implement as I go my code is ugly and not perfect or acceptable for a merge request, but it works it passes the tests then I refactor my code to be more readable, maintainable and editable as the tests are green.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Bad Quality Code</title>
+      <link>http://localhost:1313/blogs/bad-quality-code-copy-2/</link>
+      <pubDate>Mon, 21 Oct 2024 23:16:47 +0300</pubDate><author>george.karampelas.26@gmail.com (George Karampelas)</author>
+      <guid>http://localhost:1313/blogs/bad-quality-code-copy-2/</guid>
+      <description>&lt;p&gt;As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&amp;rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &amp;ldquo;PURE&amp;rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &ldquo;PURE&rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.</p>
+<p>Let&rsquo;s talk with an example, you want to create a service that handle all the business logic of an entity and for one action this entity has numerous scenarios. As I believe it is a bad practice to use just a switch and split the code on numerous private methods to make the code look good, it is not. Do you know why?</p>
+<ul>
+<li>
+<p>I can&rsquo;t read it</p>
+</li>
+<li>
+<p>I can&rsquo;t maintain it</p>
+</li>
+<li>
+<p>I can&rsquo;t test it</p>
+</li>
+<li>
+<p>I can&rsquo;t extend it</p>
+</li>
+<li>
+<p>I can&rsquo;t reuse it</p>
+</li>
+<li>
+<p>I can&rsquo;t document it</p>
+</li>
+</ul>
+<p>For all these reasons it would be better to split this business logic one more services if it is necessary or you can use Strategy Pattern. Feel free to explore the huge world of programming.</p>
+<p>As I like, I code with TDD so I try to code the way I can test, obviously not using @Autowired. I write my basic scenarios with empty methods that I am gonna implement after my basic tests I start implement as I go my code is ugly and not perfect or acceptable for a merge request, but it works it passes the tests then I refactor my code to be more readable, maintainable and editable as the tests are green.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Bad Quality Code</title>
+      <link>http://localhost:1313/blogs/bad-quality-code-copy-20/</link>
+      <pubDate>Mon, 21 Oct 2024 23:16:47 +0300</pubDate><author>george.karampelas.26@gmail.com (George Karampelas)</author>
+      <guid>http://localhost:1313/blogs/bad-quality-code-copy-20/</guid>
+      <description>&lt;p&gt;As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&amp;rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &amp;ldquo;PURE&amp;rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &ldquo;PURE&rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.</p>
+<p>Let&rsquo;s talk with an example, you want to create a service that handle all the business logic of an entity and for one action this entity has numerous scenarios. As I believe it is a bad practice to use just a switch and split the code on numerous private methods to make the code look good, it is not. Do you know why?</p>
+<ul>
+<li>
+<p>I can&rsquo;t read it</p>
+</li>
+<li>
+<p>I can&rsquo;t maintain it</p>
+</li>
+<li>
+<p>I can&rsquo;t test it</p>
+</li>
+<li>
+<p>I can&rsquo;t extend it</p>
+</li>
+<li>
+<p>I can&rsquo;t reuse it</p>
+</li>
+<li>
+<p>I can&rsquo;t document it</p>
+</li>
+</ul>
+<p>For all these reasons it would be better to split this business logic one more services if it is necessary or you can use Strategy Pattern. Feel free to explore the huge world of programming.</p>
+<p>As I like, I code with TDD so I try to code the way I can test, obviously not using @Autowired. I write my basic scenarios with empty methods that I am gonna implement after my basic tests I start implement as I go my code is ugly and not perfect or acceptable for a merge request, but it works it passes the tests then I refactor my code to be more readable, maintainable and editable as the tests are green.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Bad Quality Code</title>
+      <link>http://localhost:1313/blogs/bad-quality-code-copy-21/</link>
+      <pubDate>Mon, 21 Oct 2024 23:16:47 +0300</pubDate><author>george.karampelas.26@gmail.com (George Karampelas)</author>
+      <guid>http://localhost:1313/blogs/bad-quality-code-copy-21/</guid>
+      <description>&lt;p&gt;As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&amp;rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &amp;ldquo;PURE&amp;rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &ldquo;PURE&rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.</p>
+<p>Let&rsquo;s talk with an example, you want to create a service that handle all the business logic of an entity and for one action this entity has numerous scenarios. As I believe it is a bad practice to use just a switch and split the code on numerous private methods to make the code look good, it is not. Do you know why?</p>
+<ul>
+<li>
+<p>I can&rsquo;t read it</p>
+</li>
+<li>
+<p>I can&rsquo;t maintain it</p>
+</li>
+<li>
+<p>I can&rsquo;t test it</p>
+</li>
+<li>
+<p>I can&rsquo;t extend it</p>
+</li>
+<li>
+<p>I can&rsquo;t reuse it</p>
+</li>
+<li>
+<p>I can&rsquo;t document it</p>
+</li>
+</ul>
+<p>For all these reasons it would be better to split this business logic one more services if it is necessary or you can use Strategy Pattern. Feel free to explore the huge world of programming.</p>
+<p>As I like, I code with TDD so I try to code the way I can test, obviously not using @Autowired. I write my basic scenarios with empty methods that I am gonna implement after my basic tests I start implement as I go my code is ugly and not perfect or acceptable for a merge request, but it works it passes the tests then I refactor my code to be more readable, maintainable and editable as the tests are green.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Bad Quality Code</title>
+      <link>http://localhost:1313/blogs/bad-quality-code-copy-22/</link>
+      <pubDate>Mon, 21 Oct 2024 23:16:47 +0300</pubDate><author>george.karampelas.26@gmail.com (George Karampelas)</author>
+      <guid>http://localhost:1313/blogs/bad-quality-code-copy-22/</guid>
+      <description>&lt;p&gt;As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&amp;rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &amp;ldquo;PURE&amp;rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &ldquo;PURE&rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.</p>
+<p>Let&rsquo;s talk with an example, you want to create a service that handle all the business logic of an entity and for one action this entity has numerous scenarios. As I believe it is a bad practice to use just a switch and split the code on numerous private methods to make the code look good, it is not. Do you know why?</p>
+<ul>
+<li>
+<p>I can&rsquo;t read it</p>
+</li>
+<li>
+<p>I can&rsquo;t maintain it</p>
+</li>
+<li>
+<p>I can&rsquo;t test it</p>
+</li>
+<li>
+<p>I can&rsquo;t extend it</p>
+</li>
+<li>
+<p>I can&rsquo;t reuse it</p>
+</li>
+<li>
+<p>I can&rsquo;t document it</p>
+</li>
+</ul>
+<p>For all these reasons it would be better to split this business logic one more services if it is necessary or you can use Strategy Pattern. Feel free to explore the huge world of programming.</p>
+<p>As I like, I code with TDD so I try to code the way I can test, obviously not using @Autowired. I write my basic scenarios with empty methods that I am gonna implement after my basic tests I start implement as I go my code is ugly and not perfect or acceptable for a merge request, but it works it passes the tests then I refactor my code to be more readable, maintainable and editable as the tests are green.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Bad Quality Code</title>
+      <link>http://localhost:1313/blogs/bad-quality-code-copy-23/</link>
+      <pubDate>Mon, 21 Oct 2024 23:16:47 +0300</pubDate><author>george.karampelas.26@gmail.com (George Karampelas)</author>
+      <guid>http://localhost:1313/blogs/bad-quality-code-copy-23/</guid>
+      <description>&lt;p&gt;As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&amp;rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &amp;ldquo;PURE&amp;rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &ldquo;PURE&rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.</p>
+<p>Let&rsquo;s talk with an example, you want to create a service that handle all the business logic of an entity and for one action this entity has numerous scenarios. As I believe it is a bad practice to use just a switch and split the code on numerous private methods to make the code look good, it is not. Do you know why?</p>
+<ul>
+<li>
+<p>I can&rsquo;t read it</p>
+</li>
+<li>
+<p>I can&rsquo;t maintain it</p>
+</li>
+<li>
+<p>I can&rsquo;t test it</p>
+</li>
+<li>
+<p>I can&rsquo;t extend it</p>
+</li>
+<li>
+<p>I can&rsquo;t reuse it</p>
+</li>
+<li>
+<p>I can&rsquo;t document it</p>
+</li>
+</ul>
+<p>For all these reasons it would be better to split this business logic one more services if it is necessary or you can use Strategy Pattern. Feel free to explore the huge world of programming.</p>
+<p>As I like, I code with TDD so I try to code the way I can test, obviously not using @Autowired. I write my basic scenarios with empty methods that I am gonna implement after my basic tests I start implement as I go my code is ugly and not perfect or acceptable for a merge request, but it works it passes the tests then I refactor my code to be more readable, maintainable and editable as the tests are green.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Bad Quality Code</title>
+      <link>http://localhost:1313/blogs/bad-quality-code-copy-24/</link>
+      <pubDate>Mon, 21 Oct 2024 23:16:47 +0300</pubDate><author>george.karampelas.26@gmail.com (George Karampelas)</author>
+      <guid>http://localhost:1313/blogs/bad-quality-code-copy-24/</guid>
+      <description>&lt;p&gt;As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&amp;rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &amp;ldquo;PURE&amp;rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &ldquo;PURE&rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.</p>
+<p>Let&rsquo;s talk with an example, you want to create a service that handle all the business logic of an entity and for one action this entity has numerous scenarios. As I believe it is a bad practice to use just a switch and split the code on numerous private methods to make the code look good, it is not. Do you know why?</p>
+<ul>
+<li>
+<p>I can&rsquo;t read it</p>
+</li>
+<li>
+<p>I can&rsquo;t maintain it</p>
+</li>
+<li>
+<p>I can&rsquo;t test it</p>
+</li>
+<li>
+<p>I can&rsquo;t extend it</p>
+</li>
+<li>
+<p>I can&rsquo;t reuse it</p>
+</li>
+<li>
+<p>I can&rsquo;t document it</p>
+</li>
+</ul>
+<p>For all these reasons it would be better to split this business logic one more services if it is necessary or you can use Strategy Pattern. Feel free to explore the huge world of programming.</p>
+<p>As I like, I code with TDD so I try to code the way I can test, obviously not using @Autowired. I write my basic scenarios with empty methods that I am gonna implement after my basic tests I start implement as I go my code is ugly and not perfect or acceptable for a merge request, but it works it passes the tests then I refactor my code to be more readable, maintainable and editable as the tests are green.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Bad Quality Code</title>
+      <link>http://localhost:1313/blogs/bad-quality-code-copy-25/</link>
+      <pubDate>Mon, 21 Oct 2024 23:16:47 +0300</pubDate><author>george.karampelas.26@gmail.com (George Karampelas)</author>
+      <guid>http://localhost:1313/blogs/bad-quality-code-copy-25/</guid>
+      <description>&lt;p&gt;As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&amp;rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &amp;ldquo;PURE&amp;rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &ldquo;PURE&rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.</p>
+<p>Let&rsquo;s talk with an example, you want to create a service that handle all the business logic of an entity and for one action this entity has numerous scenarios. As I believe it is a bad practice to use just a switch and split the code on numerous private methods to make the code look good, it is not. Do you know why?</p>
+<ul>
+<li>
+<p>I can&rsquo;t read it</p>
+</li>
+<li>
+<p>I can&rsquo;t maintain it</p>
+</li>
+<li>
+<p>I can&rsquo;t test it</p>
+</li>
+<li>
+<p>I can&rsquo;t extend it</p>
+</li>
+<li>
+<p>I can&rsquo;t reuse it</p>
+</li>
+<li>
+<p>I can&rsquo;t document it</p>
+</li>
+</ul>
+<p>For all these reasons it would be better to split this business logic one more services if it is necessary or you can use Strategy Pattern. Feel free to explore the huge world of programming.</p>
+<p>As I like, I code with TDD so I try to code the way I can test, obviously not using @Autowired. I write my basic scenarios with empty methods that I am gonna implement after my basic tests I start implement as I go my code is ugly and not perfect or acceptable for a merge request, but it works it passes the tests then I refactor my code to be more readable, maintainable and editable as the tests are green.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Bad Quality Code</title>
+      <link>http://localhost:1313/blogs/bad-quality-code-copy-26/</link>
+      <pubDate>Mon, 21 Oct 2024 23:16:47 +0300</pubDate><author>george.karampelas.26@gmail.com (George Karampelas)</author>
+      <guid>http://localhost:1313/blogs/bad-quality-code-copy-26/</guid>
+      <description>&lt;p&gt;As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&amp;rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &amp;ldquo;PURE&amp;rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &ldquo;PURE&rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.</p>
+<p>Let&rsquo;s talk with an example, you want to create a service that handle all the business logic of an entity and for one action this entity has numerous scenarios. As I believe it is a bad practice to use just a switch and split the code on numerous private methods to make the code look good, it is not. Do you know why?</p>
+<ul>
+<li>
+<p>I can&rsquo;t read it</p>
+</li>
+<li>
+<p>I can&rsquo;t maintain it</p>
+</li>
+<li>
+<p>I can&rsquo;t test it</p>
+</li>
+<li>
+<p>I can&rsquo;t extend it</p>
+</li>
+<li>
+<p>I can&rsquo;t reuse it</p>
+</li>
+<li>
+<p>I can&rsquo;t document it</p>
+</li>
+</ul>
+<p>For all these reasons it would be better to split this business logic one more services if it is necessary or you can use Strategy Pattern. Feel free to explore the huge world of programming.</p>
+<p>As I like, I code with TDD so I try to code the way I can test, obviously not using @Autowired. I write my basic scenarios with empty methods that I am gonna implement after my basic tests I start implement as I go my code is ugly and not perfect or acceptable for a merge request, but it works it passes the tests then I refactor my code to be more readable, maintainable and editable as the tests are green.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Bad Quality Code</title>
+      <link>http://localhost:1313/blogs/bad-quality-code-copy-27/</link>
+      <pubDate>Mon, 21 Oct 2024 23:16:47 +0300</pubDate><author>george.karampelas.26@gmail.com (George Karampelas)</author>
+      <guid>http://localhost:1313/blogs/bad-quality-code-copy-27/</guid>
+      <description>&lt;p&gt;As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&amp;rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &amp;ldquo;PURE&amp;rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &ldquo;PURE&rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.</p>
+<p>Let&rsquo;s talk with an example, you want to create a service that handle all the business logic of an entity and for one action this entity has numerous scenarios. As I believe it is a bad practice to use just a switch and split the code on numerous private methods to make the code look good, it is not. Do you know why?</p>
+<ul>
+<li>
+<p>I can&rsquo;t read it</p>
+</li>
+<li>
+<p>I can&rsquo;t maintain it</p>
+</li>
+<li>
+<p>I can&rsquo;t test it</p>
+</li>
+<li>
+<p>I can&rsquo;t extend it</p>
+</li>
+<li>
+<p>I can&rsquo;t reuse it</p>
+</li>
+<li>
+<p>I can&rsquo;t document it</p>
+</li>
+</ul>
+<p>For all these reasons it would be better to split this business logic one more services if it is necessary or you can use Strategy Pattern. Feel free to explore the huge world of programming.</p>
+<p>As I like, I code with TDD so I try to code the way I can test, obviously not using @Autowired. I write my basic scenarios with empty methods that I am gonna implement after my basic tests I start implement as I go my code is ugly and not perfect or acceptable for a merge request, but it works it passes the tests then I refactor my code to be more readable, maintainable and editable as the tests are green.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Bad Quality Code</title>
+      <link>http://localhost:1313/blogs/bad-quality-code-copy-28/</link>
+      <pubDate>Mon, 21 Oct 2024 23:16:47 +0300</pubDate><author>george.karampelas.26@gmail.com (George Karampelas)</author>
+      <guid>http://localhost:1313/blogs/bad-quality-code-copy-28/</guid>
+      <description>&lt;p&gt;As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&amp;rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &amp;ldquo;PURE&amp;rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &ldquo;PURE&rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.</p>
+<p>Let&rsquo;s talk with an example, you want to create a service that handle all the business logic of an entity and for one action this entity has numerous scenarios. As I believe it is a bad practice to use just a switch and split the code on numerous private methods to make the code look good, it is not. Do you know why?</p>
+<ul>
+<li>
+<p>I can&rsquo;t read it</p>
+</li>
+<li>
+<p>I can&rsquo;t maintain it</p>
+</li>
+<li>
+<p>I can&rsquo;t test it</p>
+</li>
+<li>
+<p>I can&rsquo;t extend it</p>
+</li>
+<li>
+<p>I can&rsquo;t reuse it</p>
+</li>
+<li>
+<p>I can&rsquo;t document it</p>
+</li>
+</ul>
+<p>For all these reasons it would be better to split this business logic one more services if it is necessary or you can use Strategy Pattern. Feel free to explore the huge world of programming.</p>
+<p>As I like, I code with TDD so I try to code the way I can test, obviously not using @Autowired. I write my basic scenarios with empty methods that I am gonna implement after my basic tests I start implement as I go my code is ugly and not perfect or acceptable for a merge request, but it works it passes the tests then I refactor my code to be more readable, maintainable and editable as the tests are green.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Bad Quality Code</title>
+      <link>http://localhost:1313/blogs/bad-quality-code-copy-29/</link>
+      <pubDate>Mon, 21 Oct 2024 23:16:47 +0300</pubDate><author>george.karampelas.26@gmail.com (George Karampelas)</author>
+      <guid>http://localhost:1313/blogs/bad-quality-code-copy-29/</guid>
+      <description>&lt;p&gt;As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&amp;rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &amp;ldquo;PURE&amp;rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &ldquo;PURE&rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.</p>
+<p>Let&rsquo;s talk with an example, you want to create a service that handle all the business logic of an entity and for one action this entity has numerous scenarios. As I believe it is a bad practice to use just a switch and split the code on numerous private methods to make the code look good, it is not. Do you know why?</p>
+<ul>
+<li>
+<p>I can&rsquo;t read it</p>
+</li>
+<li>
+<p>I can&rsquo;t maintain it</p>
+</li>
+<li>
+<p>I can&rsquo;t test it</p>
+</li>
+<li>
+<p>I can&rsquo;t extend it</p>
+</li>
+<li>
+<p>I can&rsquo;t reuse it</p>
+</li>
+<li>
+<p>I can&rsquo;t document it</p>
+</li>
+</ul>
+<p>For all these reasons it would be better to split this business logic one more services if it is necessary or you can use Strategy Pattern. Feel free to explore the huge world of programming.</p>
+<p>As I like, I code with TDD so I try to code the way I can test, obviously not using @Autowired. I write my basic scenarios with empty methods that I am gonna implement after my basic tests I start implement as I go my code is ugly and not perfect or acceptable for a merge request, but it works it passes the tests then I refactor my code to be more readable, maintainable and editable as the tests are green.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Bad Quality Code</title>
+      <link>http://localhost:1313/blogs/bad-quality-code-copy-3/</link>
+      <pubDate>Mon, 21 Oct 2024 23:16:47 +0300</pubDate><author>george.karampelas.26@gmail.com (George Karampelas)</author>
+      <guid>http://localhost:1313/blogs/bad-quality-code-copy-3/</guid>
+      <description>&lt;p&gt;As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&amp;rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &amp;ldquo;PURE&amp;rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &ldquo;PURE&rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.</p>
+<p>Let&rsquo;s talk with an example, you want to create a service that handle all the business logic of an entity and for one action this entity has numerous scenarios. As I believe it is a bad practice to use just a switch and split the code on numerous private methods to make the code look good, it is not. Do you know why?</p>
+<ul>
+<li>
+<p>I can&rsquo;t read it</p>
+</li>
+<li>
+<p>I can&rsquo;t maintain it</p>
+</li>
+<li>
+<p>I can&rsquo;t test it</p>
+</li>
+<li>
+<p>I can&rsquo;t extend it</p>
+</li>
+<li>
+<p>I can&rsquo;t reuse it</p>
+</li>
+<li>
+<p>I can&rsquo;t document it</p>
+</li>
+</ul>
+<p>For all these reasons it would be better to split this business logic one more services if it is necessary or you can use Strategy Pattern. Feel free to explore the huge world of programming.</p>
+<p>As I like, I code with TDD so I try to code the way I can test, obviously not using @Autowired. I write my basic scenarios with empty methods that I am gonna implement after my basic tests I start implement as I go my code is ugly and not perfect or acceptable for a merge request, but it works it passes the tests then I refactor my code to be more readable, maintainable and editable as the tests are green.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Bad Quality Code</title>
+      <link>http://localhost:1313/blogs/bad-quality-code-copy-30/</link>
+      <pubDate>Mon, 21 Oct 2024 23:16:47 +0300</pubDate><author>george.karampelas.26@gmail.com (George Karampelas)</author>
+      <guid>http://localhost:1313/blogs/bad-quality-code-copy-30/</guid>
+      <description>&lt;p&gt;As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&amp;rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &amp;ldquo;PURE&amp;rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &ldquo;PURE&rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.</p>
+<p>Let&rsquo;s talk with an example, you want to create a service that handle all the business logic of an entity and for one action this entity has numerous scenarios. As I believe it is a bad practice to use just a switch and split the code on numerous private methods to make the code look good, it is not. Do you know why?</p>
+<ul>
+<li>
+<p>I can&rsquo;t read it</p>
+</li>
+<li>
+<p>I can&rsquo;t maintain it</p>
+</li>
+<li>
+<p>I can&rsquo;t test it</p>
+</li>
+<li>
+<p>I can&rsquo;t extend it</p>
+</li>
+<li>
+<p>I can&rsquo;t reuse it</p>
+</li>
+<li>
+<p>I can&rsquo;t document it</p>
+</li>
+</ul>
+<p>For all these reasons it would be better to split this business logic one more services if it is necessary or you can use Strategy Pattern. Feel free to explore the huge world of programming.</p>
+<p>As I like, I code with TDD so I try to code the way I can test, obviously not using @Autowired. I write my basic scenarios with empty methods that I am gonna implement after my basic tests I start implement as I go my code is ugly and not perfect or acceptable for a merge request, but it works it passes the tests then I refactor my code to be more readable, maintainable and editable as the tests are green.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Bad Quality Code</title>
+      <link>http://localhost:1313/blogs/bad-quality-code-copy-31/</link>
+      <pubDate>Mon, 21 Oct 2024 23:16:47 +0300</pubDate><author>george.karampelas.26@gmail.com (George Karampelas)</author>
+      <guid>http://localhost:1313/blogs/bad-quality-code-copy-31/</guid>
+      <description>&lt;p&gt;As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&amp;rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &amp;ldquo;PURE&amp;rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &ldquo;PURE&rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.</p>
+<p>Let&rsquo;s talk with an example, you want to create a service that handle all the business logic of an entity and for one action this entity has numerous scenarios. As I believe it is a bad practice to use just a switch and split the code on numerous private methods to make the code look good, it is not. Do you know why?</p>
+<ul>
+<li>
+<p>I can&rsquo;t read it</p>
+</li>
+<li>
+<p>I can&rsquo;t maintain it</p>
+</li>
+<li>
+<p>I can&rsquo;t test it</p>
+</li>
+<li>
+<p>I can&rsquo;t extend it</p>
+</li>
+<li>
+<p>I can&rsquo;t reuse it</p>
+</li>
+<li>
+<p>I can&rsquo;t document it</p>
+</li>
+</ul>
+<p>For all these reasons it would be better to split this business logic one more services if it is necessary or you can use Strategy Pattern. Feel free to explore the huge world of programming.</p>
+<p>As I like, I code with TDD so I try to code the way I can test, obviously not using @Autowired. I write my basic scenarios with empty methods that I am gonna implement after my basic tests I start implement as I go my code is ugly and not perfect or acceptable for a merge request, but it works it passes the tests then I refactor my code to be more readable, maintainable and editable as the tests are green.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Bad Quality Code</title>
+      <link>http://localhost:1313/blogs/bad-quality-code-copy-32/</link>
+      <pubDate>Mon, 21 Oct 2024 23:16:47 +0300</pubDate><author>george.karampelas.26@gmail.com (George Karampelas)</author>
+      <guid>http://localhost:1313/blogs/bad-quality-code-copy-32/</guid>
+      <description>&lt;p&gt;As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&amp;rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &amp;ldquo;PURE&amp;rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &ldquo;PURE&rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.</p>
+<p>Let&rsquo;s talk with an example, you want to create a service that handle all the business logic of an entity and for one action this entity has numerous scenarios. As I believe it is a bad practice to use just a switch and split the code on numerous private methods to make the code look good, it is not. Do you know why?</p>
+<ul>
+<li>
+<p>I can&rsquo;t read it</p>
+</li>
+<li>
+<p>I can&rsquo;t maintain it</p>
+</li>
+<li>
+<p>I can&rsquo;t test it</p>
+</li>
+<li>
+<p>I can&rsquo;t extend it</p>
+</li>
+<li>
+<p>I can&rsquo;t reuse it</p>
+</li>
+<li>
+<p>I can&rsquo;t document it</p>
+</li>
+</ul>
+<p>For all these reasons it would be better to split this business logic one more services if it is necessary or you can use Strategy Pattern. Feel free to explore the huge world of programming.</p>
+<p>As I like, I code with TDD so I try to code the way I can test, obviously not using @Autowired. I write my basic scenarios with empty methods that I am gonna implement after my basic tests I start implement as I go my code is ugly and not perfect or acceptable for a merge request, but it works it passes the tests then I refactor my code to be more readable, maintainable and editable as the tests are green.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Bad Quality Code</title>
+      <link>http://localhost:1313/blogs/bad-quality-code-copy-33/</link>
+      <pubDate>Mon, 21 Oct 2024 23:16:47 +0300</pubDate><author>george.karampelas.26@gmail.com (George Karampelas)</author>
+      <guid>http://localhost:1313/blogs/bad-quality-code-copy-33/</guid>
+      <description>&lt;p&gt;As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&amp;rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &amp;ldquo;PURE&amp;rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &ldquo;PURE&rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.</p>
+<p>Let&rsquo;s talk with an example, you want to create a service that handle all the business logic of an entity and for one action this entity has numerous scenarios. As I believe it is a bad practice to use just a switch and split the code on numerous private methods to make the code look good, it is not. Do you know why?</p>
+<ul>
+<li>
+<p>I can&rsquo;t read it</p>
+</li>
+<li>
+<p>I can&rsquo;t maintain it</p>
+</li>
+<li>
+<p>I can&rsquo;t test it</p>
+</li>
+<li>
+<p>I can&rsquo;t extend it</p>
+</li>
+<li>
+<p>I can&rsquo;t reuse it</p>
+</li>
+<li>
+<p>I can&rsquo;t document it</p>
+</li>
+</ul>
+<p>For all these reasons it would be better to split this business logic one more services if it is necessary or you can use Strategy Pattern. Feel free to explore the huge world of programming.</p>
+<p>As I like, I code with TDD so I try to code the way I can test, obviously not using @Autowired. I write my basic scenarios with empty methods that I am gonna implement after my basic tests I start implement as I go my code is ugly and not perfect or acceptable for a merge request, but it works it passes the tests then I refactor my code to be more readable, maintainable and editable as the tests are green.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Bad Quality Code</title>
+      <link>http://localhost:1313/blogs/bad-quality-code-copy-34/</link>
+      <pubDate>Mon, 21 Oct 2024 23:16:47 +0300</pubDate><author>george.karampelas.26@gmail.com (George Karampelas)</author>
+      <guid>http://localhost:1313/blogs/bad-quality-code-copy-34/</guid>
+      <description>&lt;p&gt;As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&amp;rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &amp;ldquo;PURE&amp;rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &ldquo;PURE&rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.</p>
+<p>Let&rsquo;s talk with an example, you want to create a service that handle all the business logic of an entity and for one action this entity has numerous scenarios. As I believe it is a bad practice to use just a switch and split the code on numerous private methods to make the code look good, it is not. Do you know why?</p>
+<ul>
+<li>
+<p>I can&rsquo;t read it</p>
+</li>
+<li>
+<p>I can&rsquo;t maintain it</p>
+</li>
+<li>
+<p>I can&rsquo;t test it</p>
+</li>
+<li>
+<p>I can&rsquo;t extend it</p>
+</li>
+<li>
+<p>I can&rsquo;t reuse it</p>
+</li>
+<li>
+<p>I can&rsquo;t document it</p>
+</li>
+</ul>
+<p>For all these reasons it would be better to split this business logic one more services if it is necessary or you can use Strategy Pattern. Feel free to explore the huge world of programming.</p>
+<p>As I like, I code with TDD so I try to code the way I can test, obviously not using @Autowired. I write my basic scenarios with empty methods that I am gonna implement after my basic tests I start implement as I go my code is ugly and not perfect or acceptable for a merge request, but it works it passes the tests then I refactor my code to be more readable, maintainable and editable as the tests are green.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Bad Quality Code</title>
+      <link>http://localhost:1313/blogs/bad-quality-code-copy-35/</link>
+      <pubDate>Mon, 21 Oct 2024 23:16:47 +0300</pubDate><author>george.karampelas.26@gmail.com (George Karampelas)</author>
+      <guid>http://localhost:1313/blogs/bad-quality-code-copy-35/</guid>
+      <description>&lt;p&gt;As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&amp;rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &amp;ldquo;PURE&amp;rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &ldquo;PURE&rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.</p>
+<p>Let&rsquo;s talk with an example, you want to create a service that handle all the business logic of an entity and for one action this entity has numerous scenarios. As I believe it is a bad practice to use just a switch and split the code on numerous private methods to make the code look good, it is not. Do you know why?</p>
+<ul>
+<li>
+<p>I can&rsquo;t read it</p>
+</li>
+<li>
+<p>I can&rsquo;t maintain it</p>
+</li>
+<li>
+<p>I can&rsquo;t test it</p>
+</li>
+<li>
+<p>I can&rsquo;t extend it</p>
+</li>
+<li>
+<p>I can&rsquo;t reuse it</p>
+</li>
+<li>
+<p>I can&rsquo;t document it</p>
+</li>
+</ul>
+<p>For all these reasons it would be better to split this business logic one more services if it is necessary or you can use Strategy Pattern. Feel free to explore the huge world of programming.</p>
+<p>As I like, I code with TDD so I try to code the way I can test, obviously not using @Autowired. I write my basic scenarios with empty methods that I am gonna implement after my basic tests I start implement as I go my code is ugly and not perfect or acceptable for a merge request, but it works it passes the tests then I refactor my code to be more readable, maintainable and editable as the tests are green.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Bad Quality Code</title>
+      <link>http://localhost:1313/blogs/bad-quality-code-copy-36/</link>
+      <pubDate>Mon, 21 Oct 2024 23:16:47 +0300</pubDate><author>george.karampelas.26@gmail.com (George Karampelas)</author>
+      <guid>http://localhost:1313/blogs/bad-quality-code-copy-36/</guid>
+      <description>&lt;p&gt;As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&amp;rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &amp;ldquo;PURE&amp;rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &ldquo;PURE&rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.</p>
+<p>Let&rsquo;s talk with an example, you want to create a service that handle all the business logic of an entity and for one action this entity has numerous scenarios. As I believe it is a bad practice to use just a switch and split the code on numerous private methods to make the code look good, it is not. Do you know why?</p>
+<ul>
+<li>
+<p>I can&rsquo;t read it</p>
+</li>
+<li>
+<p>I can&rsquo;t maintain it</p>
+</li>
+<li>
+<p>I can&rsquo;t test it</p>
+</li>
+<li>
+<p>I can&rsquo;t extend it</p>
+</li>
+<li>
+<p>I can&rsquo;t reuse it</p>
+</li>
+<li>
+<p>I can&rsquo;t document it</p>
+</li>
+</ul>
+<p>For all these reasons it would be better to split this business logic one more services if it is necessary or you can use Strategy Pattern. Feel free to explore the huge world of programming.</p>
+<p>As I like, I code with TDD so I try to code the way I can test, obviously not using @Autowired. I write my basic scenarios with empty methods that I am gonna implement after my basic tests I start implement as I go my code is ugly and not perfect or acceptable for a merge request, but it works it passes the tests then I refactor my code to be more readable, maintainable and editable as the tests are green.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Bad Quality Code</title>
+      <link>http://localhost:1313/blogs/bad-quality-code-copy-37/</link>
+      <pubDate>Mon, 21 Oct 2024 23:16:47 +0300</pubDate><author>george.karampelas.26@gmail.com (George Karampelas)</author>
+      <guid>http://localhost:1313/blogs/bad-quality-code-copy-37/</guid>
+      <description>&lt;p&gt;As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&amp;rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &amp;ldquo;PURE&amp;rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &ldquo;PURE&rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.</p>
+<p>Let&rsquo;s talk with an example, you want to create a service that handle all the business logic of an entity and for one action this entity has numerous scenarios. As I believe it is a bad practice to use just a switch and split the code on numerous private methods to make the code look good, it is not. Do you know why?</p>
+<ul>
+<li>
+<p>I can&rsquo;t read it</p>
+</li>
+<li>
+<p>I can&rsquo;t maintain it</p>
+</li>
+<li>
+<p>I can&rsquo;t test it</p>
+</li>
+<li>
+<p>I can&rsquo;t extend it</p>
+</li>
+<li>
+<p>I can&rsquo;t reuse it</p>
+</li>
+<li>
+<p>I can&rsquo;t document it</p>
+</li>
+</ul>
+<p>For all these reasons it would be better to split this business logic one more services if it is necessary or you can use Strategy Pattern. Feel free to explore the huge world of programming.</p>
+<p>As I like, I code with TDD so I try to code the way I can test, obviously not using @Autowired. I write my basic scenarios with empty methods that I am gonna implement after my basic tests I start implement as I go my code is ugly and not perfect or acceptable for a merge request, but it works it passes the tests then I refactor my code to be more readable, maintainable and editable as the tests are green.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Bad Quality Code</title>
+      <link>http://localhost:1313/blogs/bad-quality-code-copy-38/</link>
+      <pubDate>Mon, 21 Oct 2024 23:16:47 +0300</pubDate><author>george.karampelas.26@gmail.com (George Karampelas)</author>
+      <guid>http://localhost:1313/blogs/bad-quality-code-copy-38/</guid>
+      <description>&lt;p&gt;As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&amp;rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &amp;ldquo;PURE&amp;rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &ldquo;PURE&rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.</p>
+<p>Let&rsquo;s talk with an example, you want to create a service that handle all the business logic of an entity and for one action this entity has numerous scenarios. As I believe it is a bad practice to use just a switch and split the code on numerous private methods to make the code look good, it is not. Do you know why?</p>
+<ul>
+<li>
+<p>I can&rsquo;t read it</p>
+</li>
+<li>
+<p>I can&rsquo;t maintain it</p>
+</li>
+<li>
+<p>I can&rsquo;t test it</p>
+</li>
+<li>
+<p>I can&rsquo;t extend it</p>
+</li>
+<li>
+<p>I can&rsquo;t reuse it</p>
+</li>
+<li>
+<p>I can&rsquo;t document it</p>
+</li>
+</ul>
+<p>For all these reasons it would be better to split this business logic one more services if it is necessary or you can use Strategy Pattern. Feel free to explore the huge world of programming.</p>
+<p>As I like, I code with TDD so I try to code the way I can test, obviously not using @Autowired. I write my basic scenarios with empty methods that I am gonna implement after my basic tests I start implement as I go my code is ugly and not perfect or acceptable for a merge request, but it works it passes the tests then I refactor my code to be more readable, maintainable and editable as the tests are green.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Bad Quality Code</title>
+      <link>http://localhost:1313/blogs/bad-quality-code-copy-39/</link>
+      <pubDate>Mon, 21 Oct 2024 23:16:47 +0300</pubDate><author>george.karampelas.26@gmail.com (George Karampelas)</author>
+      <guid>http://localhost:1313/blogs/bad-quality-code-copy-39/</guid>
+      <description>&lt;p&gt;As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&amp;rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &amp;ldquo;PURE&amp;rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &ldquo;PURE&rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.</p>
+<p>Let&rsquo;s talk with an example, you want to create a service that handle all the business logic of an entity and for one action this entity has numerous scenarios. As I believe it is a bad practice to use just a switch and split the code on numerous private methods to make the code look good, it is not. Do you know why?</p>
+<ul>
+<li>
+<p>I can&rsquo;t read it</p>
+</li>
+<li>
+<p>I can&rsquo;t maintain it</p>
+</li>
+<li>
+<p>I can&rsquo;t test it</p>
+</li>
+<li>
+<p>I can&rsquo;t extend it</p>
+</li>
+<li>
+<p>I can&rsquo;t reuse it</p>
+</li>
+<li>
+<p>I can&rsquo;t document it</p>
+</li>
+</ul>
+<p>For all these reasons it would be better to split this business logic one more services if it is necessary or you can use Strategy Pattern. Feel free to explore the huge world of programming.</p>
+<p>As I like, I code with TDD so I try to code the way I can test, obviously not using @Autowired. I write my basic scenarios with empty methods that I am gonna implement after my basic tests I start implement as I go my code is ugly and not perfect or acceptable for a merge request, but it works it passes the tests then I refactor my code to be more readable, maintainable and editable as the tests are green.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Bad Quality Code</title>
+      <link>http://localhost:1313/blogs/bad-quality-code-copy-4/</link>
+      <pubDate>Mon, 21 Oct 2024 23:16:47 +0300</pubDate><author>george.karampelas.26@gmail.com (George Karampelas)</author>
+      <guid>http://localhost:1313/blogs/bad-quality-code-copy-4/</guid>
+      <description>&lt;p&gt;As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&amp;rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &amp;ldquo;PURE&amp;rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &ldquo;PURE&rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.</p>
+<p>Let&rsquo;s talk with an example, you want to create a service that handle all the business logic of an entity and for one action this entity has numerous scenarios. As I believe it is a bad practice to use just a switch and split the code on numerous private methods to make the code look good, it is not. Do you know why?</p>
+<ul>
+<li>
+<p>I can&rsquo;t read it</p>
+</li>
+<li>
+<p>I can&rsquo;t maintain it</p>
+</li>
+<li>
+<p>I can&rsquo;t test it</p>
+</li>
+<li>
+<p>I can&rsquo;t extend it</p>
+</li>
+<li>
+<p>I can&rsquo;t reuse it</p>
+</li>
+<li>
+<p>I can&rsquo;t document it</p>
+</li>
+</ul>
+<p>For all these reasons it would be better to split this business logic one more services if it is necessary or you can use Strategy Pattern. Feel free to explore the huge world of programming.</p>
+<p>As I like, I code with TDD so I try to code the way I can test, obviously not using @Autowired. I write my basic scenarios with empty methods that I am gonna implement after my basic tests I start implement as I go my code is ugly and not perfect or acceptable for a merge request, but it works it passes the tests then I refactor my code to be more readable, maintainable and editable as the tests are green.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Bad Quality Code</title>
+      <link>http://localhost:1313/blogs/bad-quality-code-copy-40/</link>
+      <pubDate>Mon, 21 Oct 2024 23:16:47 +0300</pubDate><author>george.karampelas.26@gmail.com (George Karampelas)</author>
+      <guid>http://localhost:1313/blogs/bad-quality-code-copy-40/</guid>
+      <description>&lt;p&gt;As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&amp;rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &amp;ldquo;PURE&amp;rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &ldquo;PURE&rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.</p>
+<p>Let&rsquo;s talk with an example, you want to create a service that handle all the business logic of an entity and for one action this entity has numerous scenarios. As I believe it is a bad practice to use just a switch and split the code on numerous private methods to make the code look good, it is not. Do you know why?</p>
+<ul>
+<li>
+<p>I can&rsquo;t read it</p>
+</li>
+<li>
+<p>I can&rsquo;t maintain it</p>
+</li>
+<li>
+<p>I can&rsquo;t test it</p>
+</li>
+<li>
+<p>I can&rsquo;t extend it</p>
+</li>
+<li>
+<p>I can&rsquo;t reuse it</p>
+</li>
+<li>
+<p>I can&rsquo;t document it</p>
+</li>
+</ul>
+<p>For all these reasons it would be better to split this business logic one more services if it is necessary or you can use Strategy Pattern. Feel free to explore the huge world of programming.</p>
+<p>As I like, I code with TDD so I try to code the way I can test, obviously not using @Autowired. I write my basic scenarios with empty methods that I am gonna implement after my basic tests I start implement as I go my code is ugly and not perfect or acceptable for a merge request, but it works it passes the tests then I refactor my code to be more readable, maintainable and editable as the tests are green.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Bad Quality Code</title>
+      <link>http://localhost:1313/blogs/bad-quality-code-copy-5/</link>
+      <pubDate>Mon, 21 Oct 2024 23:16:47 +0300</pubDate><author>george.karampelas.26@gmail.com (George Karampelas)</author>
+      <guid>http://localhost:1313/blogs/bad-quality-code-copy-5/</guid>
+      <description>&lt;p&gt;As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&amp;rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &amp;ldquo;PURE&amp;rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &ldquo;PURE&rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.</p>
+<p>Let&rsquo;s talk with an example, you want to create a service that handle all the business logic of an entity and for one action this entity has numerous scenarios. As I believe it is a bad practice to use just a switch and split the code on numerous private methods to make the code look good, it is not. Do you know why?</p>
+<ul>
+<li>
+<p>I can&rsquo;t read it</p>
+</li>
+<li>
+<p>I can&rsquo;t maintain it</p>
+</li>
+<li>
+<p>I can&rsquo;t test it</p>
+</li>
+<li>
+<p>I can&rsquo;t extend it</p>
+</li>
+<li>
+<p>I can&rsquo;t reuse it</p>
+</li>
+<li>
+<p>I can&rsquo;t document it</p>
+</li>
+</ul>
+<p>For all these reasons it would be better to split this business logic one more services if it is necessary or you can use Strategy Pattern. Feel free to explore the huge world of programming.</p>
+<p>As I like, I code with TDD so I try to code the way I can test, obviously not using @Autowired. I write my basic scenarios with empty methods that I am gonna implement after my basic tests I start implement as I go my code is ugly and not perfect or acceptable for a merge request, but it works it passes the tests then I refactor my code to be more readable, maintainable and editable as the tests are green.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Bad Quality Code</title>
+      <link>http://localhost:1313/blogs/bad-quality-code-copy-6/</link>
+      <pubDate>Mon, 21 Oct 2024 23:16:47 +0300</pubDate><author>george.karampelas.26@gmail.com (George Karampelas)</author>
+      <guid>http://localhost:1313/blogs/bad-quality-code-copy-6/</guid>
+      <description>&lt;p&gt;As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&amp;rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &amp;ldquo;PURE&amp;rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &ldquo;PURE&rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.</p>
+<p>Let&rsquo;s talk with an example, you want to create a service that handle all the business logic of an entity and for one action this entity has numerous scenarios. As I believe it is a bad practice to use just a switch and split the code on numerous private methods to make the code look good, it is not. Do you know why?</p>
+<ul>
+<li>
+<p>I can&rsquo;t read it</p>
+</li>
+<li>
+<p>I can&rsquo;t maintain it</p>
+</li>
+<li>
+<p>I can&rsquo;t test it</p>
+</li>
+<li>
+<p>I can&rsquo;t extend it</p>
+</li>
+<li>
+<p>I can&rsquo;t reuse it</p>
+</li>
+<li>
+<p>I can&rsquo;t document it</p>
+</li>
+</ul>
+<p>For all these reasons it would be better to split this business logic one more services if it is necessary or you can use Strategy Pattern. Feel free to explore the huge world of programming.</p>
+<p>As I like, I code with TDD so I try to code the way I can test, obviously not using @Autowired. I write my basic scenarios with empty methods that I am gonna implement after my basic tests I start implement as I go my code is ugly and not perfect or acceptable for a merge request, but it works it passes the tests then I refactor my code to be more readable, maintainable and editable as the tests are green.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Bad Quality Code</title>
+      <link>http://localhost:1313/blogs/bad-quality-code-copy-7/</link>
+      <pubDate>Mon, 21 Oct 2024 23:16:47 +0300</pubDate><author>george.karampelas.26@gmail.com (George Karampelas)</author>
+      <guid>http://localhost:1313/blogs/bad-quality-code-copy-7/</guid>
+      <description>&lt;p&gt;As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&amp;rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &amp;ldquo;PURE&amp;rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &ldquo;PURE&rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.</p>
+<p>Let&rsquo;s talk with an example, you want to create a service that handle all the business logic of an entity and for one action this entity has numerous scenarios. As I believe it is a bad practice to use just a switch and split the code on numerous private methods to make the code look good, it is not. Do you know why?</p>
+<ul>
+<li>
+<p>I can&rsquo;t read it</p>
+</li>
+<li>
+<p>I can&rsquo;t maintain it</p>
+</li>
+<li>
+<p>I can&rsquo;t test it</p>
+</li>
+<li>
+<p>I can&rsquo;t extend it</p>
+</li>
+<li>
+<p>I can&rsquo;t reuse it</p>
+</li>
+<li>
+<p>I can&rsquo;t document it</p>
+</li>
+</ul>
+<p>For all these reasons it would be better to split this business logic one more services if it is necessary or you can use Strategy Pattern. Feel free to explore the huge world of programming.</p>
+<p>As I like, I code with TDD so I try to code the way I can test, obviously not using @Autowired. I write my basic scenarios with empty methods that I am gonna implement after my basic tests I start implement as I go my code is ugly and not perfect or acceptable for a merge request, but it works it passes the tests then I refactor my code to be more readable, maintainable and editable as the tests are green.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Bad Quality Code</title>
+      <link>http://localhost:1313/blogs/bad-quality-code-copy-8/</link>
+      <pubDate>Mon, 21 Oct 2024 23:16:47 +0300</pubDate><author>george.karampelas.26@gmail.com (George Karampelas)</author>
+      <guid>http://localhost:1313/blogs/bad-quality-code-copy-8/</guid>
+      <description>&lt;p&gt;As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&amp;rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &amp;ldquo;PURE&amp;rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &ldquo;PURE&rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.</p>
+<p>Let&rsquo;s talk with an example, you want to create a service that handle all the business logic of an entity and for one action this entity has numerous scenarios. As I believe it is a bad practice to use just a switch and split the code on numerous private methods to make the code look good, it is not. Do you know why?</p>
+<ul>
+<li>
+<p>I can&rsquo;t read it</p>
+</li>
+<li>
+<p>I can&rsquo;t maintain it</p>
+</li>
+<li>
+<p>I can&rsquo;t test it</p>
+</li>
+<li>
+<p>I can&rsquo;t extend it</p>
+</li>
+<li>
+<p>I can&rsquo;t reuse it</p>
+</li>
+<li>
+<p>I can&rsquo;t document it</p>
+</li>
+</ul>
+<p>For all these reasons it would be better to split this business logic one more services if it is necessary or you can use Strategy Pattern. Feel free to explore the huge world of programming.</p>
+<p>As I like, I code with TDD so I try to code the way I can test, obviously not using @Autowired. I write my basic scenarios with empty methods that I am gonna implement after my basic tests I start implement as I go my code is ugly and not perfect or acceptable for a merge request, but it works it passes the tests then I refactor my code to be more readable, maintainable and editable as the tests are green.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Bad Quality Code</title>
+      <link>http://localhost:1313/blogs/bad-quality-code-copy-9/</link>
+      <pubDate>Mon, 21 Oct 2024 23:16:47 +0300</pubDate><author>george.karampelas.26@gmail.com (George Karampelas)</author>
+      <guid>http://localhost:1313/blogs/bad-quality-code-copy-9/</guid>
+      <description>&lt;p&gt;As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&amp;rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &amp;ldquo;PURE&amp;rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &ldquo;PURE&rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.</p>
+<p>Let&rsquo;s talk with an example, you want to create a service that handle all the business logic of an entity and for one action this entity has numerous scenarios. As I believe it is a bad practice to use just a switch and split the code on numerous private methods to make the code look good, it is not. Do you know why?</p>
+<ul>
+<li>
+<p>I can&rsquo;t read it</p>
+</li>
+<li>
+<p>I can&rsquo;t maintain it</p>
+</li>
+<li>
+<p>I can&rsquo;t test it</p>
+</li>
+<li>
+<p>I can&rsquo;t extend it</p>
+</li>
+<li>
+<p>I can&rsquo;t reuse it</p>
+</li>
+<li>
+<p>I can&rsquo;t document it</p>
+</li>
+</ul>
+<p>For all these reasons it would be better to split this business logic one more services if it is necessary or you can use Strategy Pattern. Feel free to explore the huge world of programming.</p>
+<p>As I like, I code with TDD so I try to code the way I can test, obviously not using @Autowired. I write my basic scenarios with empty methods that I am gonna implement after my basic tests I start implement as I go my code is ugly and not perfect or acceptable for a merge request, but it works it passes the tests then I refactor my code to be more readable, maintainable and editable as the tests are green.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Bad Quality Code</title>
+      <link>http://localhost:1313/blogs/bad-quality-code-copy/</link>
+      <pubDate>Mon, 21 Oct 2024 23:16:47 +0300</pubDate><author>george.karampelas.26@gmail.com (George Karampelas)</author>
+      <guid>http://localhost:1313/blogs/bad-quality-code-copy/</guid>
+      <description>&lt;p&gt;As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&amp;rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &amp;ldquo;PURE&amp;rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &ldquo;PURE&rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.</p>
+<p>Let&rsquo;s talk with an example, you want to create a service that handle all the business logic of an entity and for one action this entity has numerous scenarios. As I believe it is a bad practice to use just a switch and split the code on numerous private methods to make the code look good, it is not. Do you know why?</p>
+<ul>
+<li>
+<p>I can&rsquo;t read it</p>
+</li>
+<li>
+<p>I can&rsquo;t maintain it</p>
+</li>
+<li>
+<p>I can&rsquo;t test it</p>
+</li>
+<li>
+<p>I can&rsquo;t extend it</p>
+</li>
+<li>
+<p>I can&rsquo;t reuse it</p>
+</li>
+<li>
+<p>I can&rsquo;t document it</p>
+</li>
+</ul>
+<p>For all these reasons it would be better to split this business logic one more services if it is necessary or you can use Strategy Pattern. Feel free to explore the huge world of programming.</p>
+<p>As I like, I code with TDD so I try to code the way I can test, obviously not using @Autowired. I write my basic scenarios with empty methods that I am gonna implement after my basic tests I start implement as I go my code is ugly and not perfect or acceptable for a merge request, but it works it passes the tests then I refactor my code to be more readable, maintainable and editable as the tests are green.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Bad Quality Code</title>
+      <link>http://localhost:1313/blogs/bad-quality-code/</link>
+      <pubDate>Mon, 21 Oct 2024 23:16:47 +0300</pubDate><author>george.karampelas.26@gmail.com (George Karampelas)</author>
+      <guid>http://localhost:1313/blogs/bad-quality-code/</guid>
+      <description>&lt;p&gt;As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&amp;rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &amp;ldquo;PURE&amp;rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &ldquo;PURE&rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.</p>
+<p>Let&rsquo;s talk with an example, you want to create a service that handle all the business logic of an entity and for one action this entity has numerous scenarios. As I believe it is a bad practice to use just a switch and split the code on numerous private methods to make the code look good, it is not. Do you know why?</p>
+<ul>
+<li>
+<p>I can&rsquo;t read it</p>
+</li>
+<li>
+<p>I can&rsquo;t maintain it</p>
+</li>
+<li>
+<p>I can&rsquo;t test it</p>
+</li>
+<li>
+<p>I can&rsquo;t extend it</p>
+</li>
+<li>
+<p>I can&rsquo;t reuse it</p>
+</li>
+<li>
+<p>I can&rsquo;t document it</p>
+</li>
+</ul>
+<p>For all these reasons it would be better to split this business logic one more services if it is necessary or you can use Strategy Pattern. Feel free to explore the huge world of programming.</p>
+<p>As I like, I code with TDD so I try to code the way I can test, obviously not using @Autowired. I write my basic scenarios with empty methods that I am gonna implement after my basic tests I start implement as I go my code is ugly and not perfect or acceptable for a merge request, but it works it passes the tests then I refactor my code to be more readable, maintainable and editable as the tests are green.</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

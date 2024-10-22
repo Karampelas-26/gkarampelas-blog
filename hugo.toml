@@ -1,0 +1,39 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'George Karampelas'
+theme = "hugo-bearcub"
+copyright = "George Karampelas (CC BY 4.0)"
+
+[markup]
+  [markup.highlight]
+    lineNos = true
+    lineNumbersInTable = false
+    noClasses = false
+
+[params]
+  madeWith = "Made with [Bear Cub](https://github.com/clente/hugo-bearcub)"
+  description = "George Karampelas Portfolio - Personal Blog"
+
+  favicon = "images/favicon.png"
+
+  images = ["images/share.webp"]
+
+  title = "Bear Cub"
+
+  dateFormat = "2006-01-02"
+
+  hideUntranslated = false
+
+  themeStyle = "original"
+
+  generateSocialCard = true
+
+  [params.social]
+    twitter = "example" # Twitter handle (without '@')
+    facebook_admin = "0000000000" # Facebook Page Admin ID
+
+  [params.author]
+    name = "George Karampelas"
+    email = "george.karampelas.26@gmail.com"
+
+paginate = 5

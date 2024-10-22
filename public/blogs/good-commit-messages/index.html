@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="http://localhost:1313/images/favicon.png" />
+<title>Crafting Good Commit Messages | George Karampelas</title>
+<meta name="title" content="Crafting Good Commit Messages" />
+<meta name="description" content="Crafting Good Commit Messages: A Developer&rsquo;s Guide
+As developers, we know that version control is essential, but writing meaningful commit messages often gets overlooked. A well-written commit message not only helps your future self but also your team in understanding the changes and reasoning behind them. Let&rsquo;s break down some best practices for crafting good commit messages.
+
+Keep it Short, but Informative
+
+A commit message should give a quick overview of what the commit does. The general rule is that the summary line should be no more than 50 characters. This makes it readable in git logs and on platforms like GitHub." />
+<meta name="author" content="George Karampelas" />
+<meta name="keywords" content="" />
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta property="og:title" content="Crafting Good Commit Messages" />
+<meta property="og:description" content="Crafting Good Commit Messages: A Developer&rsquo;s Guide
+As developers, we know that version control is essential, but writing meaningful commit messages often gets overlooked. A well-written commit message not only helps your future self but also your team in understanding the changes and reasoning behind them. Let&rsquo;s break down some best practices for crafting good commit messages.
+
+Keep it Short, but Informative
+
+A commit message should give a quick overview of what the commit does. The general rule is that the summary line should be no more than 50 characters. This makes it readable in git logs and on platforms like GitHub." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/blogs/good-commit-messages/" />
+
+<meta property="og:image" content="http://localhost:1313/images/social_card_bg_hu4851284440761907466.webp"/><meta property="article:section" content="blogs" />
+<meta property="article:published_time" content="2024-09-11T23:16:47+03:00" />
+<meta property="article:modified_time" content="2024-09-11T23:16:47+03:00" /><meta property="og:site_name" content="Bear Cub" />
+<meta property="fb:admins" content="0000000000" />
+
+
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="http://localhost:1313/images/social_card_bg_hu4851284440761907466.webp"/>
+<meta name="twitter:title" content="Crafting Good Commit Messages"/>
+<meta name="twitter:description" content="Crafting Good Commit Messages: A Developer&rsquo;s Guide
+As developers, we know that version control is essential, but writing meaningful commit messages often gets overlooked. A well-written commit message not only helps your future self but also your team in understanding the changes and reasoning behind them. Let&rsquo;s break down some best practices for crafting good commit messages.
+
+Keep it Short, but Informative
+
+A commit message should give a quick overview of what the commit does. The general rule is that the summary line should be no more than 50 characters. This makes it readable in git logs and on platforms like GitHub."/>
+<meta name="twitter:site" content="@example"/>
+
+
+
+<meta itemprop="name" content="Crafting Good Commit Messages">
+<meta itemprop="description" content="Crafting Good Commit Messages: A Developer&rsquo;s Guide
+As developers, we know that version control is essential, but writing meaningful commit messages often gets overlooked. A well-written commit message not only helps your future self but also your team in understanding the changes and reasoning behind them. Let&rsquo;s break down some best practices for crafting good commit messages.
+
+Keep it Short, but Informative
+
+A commit message should give a quick overview of what the commit does. The general rule is that the summary line should be no more than 50 characters. This makes it readable in git logs and on platforms like GitHub."><meta itemprop="datePublished" content="2024-09-11T23:16:47+03:00" />
+<meta itemprop="dateModified" content="2024-09-11T23:16:47+03:00" />
+<meta itemprop="wordCount" content="441">
+
+<meta itemprop="image" content="http://localhost:1313/images/social_card_bg_hu4851284440761907466.webp"/>
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  
+  <link href="/original.min.css" rel="stylesheet">
+
+  
+
+  
+
+  
+</head>
+
+<body>
+  <header><a class="skip-link" href="#main-content">Skip to main content</a>
+
+<a href="/" class="title"><h1>George Karampelas</h1></a>
+<nav>
+  <a href="/">Home</a>
+
+  <a href="/blogs/">Blogs</a>
+
+<a href='http://localhost:1313/index.xml'>RSS</a>
+
+
+
+
+
+
+
+</nav>
+</header>
+  <main id="main-content">
+
+<h1>Crafting Good Commit Messages</h1>
+<p class="byline">
+  <time datetime='2024-09-11' pubdate>
+    2024-09-11
+  </time>
+  · George Karampelas
+</p>
+
+<content>
+  <h3 id="crafting-good-commit-messages-a-developers-guide">Crafting Good Commit Messages: A Developer&rsquo;s Guide</h3>
+<p>As developers, we know that version control is essential, but writing meaningful commit messages often gets overlooked. A well-written commit message not only helps your future self but also your team in understanding the changes and reasoning behind them. Let&rsquo;s break down some best practices for crafting good commit messages.</p>
+<ol>
+<li>Keep it Short, but Informative</li>
+</ol>
+<p>A commit message should give a quick overview of what the commit does. The general rule is that the summary line should be no more than 50 characters. This makes it readable in git logs and on platforms like GitHub.</p>
+<pre><code>❌ &quot;fixes bug&quot;
+✅ &quot;Fix issue where user session was not cleared on logout&quot;
+</code></pre>
+<ol start="2">
+<li>Use the Imperative Mood</li>
+</ol>
+<p>Write your commit messages in the imperative mood, as if you’re giving a command. Think of it like this: when you run git log, you are telling Git what the commit does.</p>
+<pre><code>❌ &quot;fixed the login bug&quot;
+✅ &quot;Fix login bug when session times out&quot;
+</code></pre>
+<p>The imperative mood emphasizes the action being done and reads well in lists of commits.
+3. Explain Why, Not Just What</p>
+<p>Sometimes, a simple description of what was changed isn&rsquo;t enough. Include a brief explanation of why the change was made, especially if the reasoning isn&rsquo;t obvious.</p>
+<pre><code>❌ &quot;Remove deprecated method&quot;
+✅ &quot;Remove deprecated method to prevent security vulnerabilities&quot;
+</code></pre>
+<p>This adds context for anyone reviewing the commit later.
+4. Break Longer Descriptions into a Body</p>
+<p>If your change requires more explanation, add a detailed description in the body of the commit message. Leave a blank line after the summary and then provide more details.</p>
+<p>Example:</p>
+<p>vbnet</p>
+<p>Fix bug where user session wasn&rsquo;t cleared on logout</p>
+<p>This bug caused users to remain logged in after clicking &ldquo;Logout&rdquo;.
+Clearing the session data resolves the issue and improves security.</p>
+<ol start="5">
+<li>Reference Relevant Issues or Tickets</li>
+</ol>
+<p>Link your commits to issues or tickets by including the issue number. This adds traceability and helps developers see the full history of the problem.</p>
+<pre><code>✅ &quot;Add error handling for API timeouts (#123)&quot;
+</code></pre>
+<p>Most tools like GitHub, GitLab, or Jira will automatically create a link to the issue when referenced in the commit.
+6. Commit Small, Incremental Changes</p>
+<p>Each commit should represent a single, logical change. Avoid grouping unrelated changes in the same commit. This makes it easier to understand and roll back specific changes if needed.</p>
+<pre><code>❌ &quot;Fix bugs and add new features&quot;
+✅ &quot;Fix bug in logout logic&quot;
+✅ &quot;Add user role management feature&quot;
+</code></pre>
+<ol start="7">
+<li>Capitalize and Punctuate Correctly</li>
+</ol>
+<p>Start your commit messages with a capital letter and generally avoid punctuation at the end of the subject line. This keeps it clean and consistent.</p>
+
+</content>
+<p>
+  
+</p>
+
+
+  <p>
+    <a href='mailto:george.karampelas.26@gmail.com?subject=Reply%20to%20"Crafting%20Good%20Commit%20Messages"'>
+      Reply to this post by email ↪
+    </a>
+  </p>
+
+
+
+  </main>
+  <footer><small>
+  George Karampelas (CC BY 4.0) | Made with <a href="https://github.com/clente/hugo-bearcub">Bear Cub</a>
+</small></footer>
+
+    
+</body>
+
+</html>

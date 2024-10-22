@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="http://localhost:1313/images/favicon.png" />
+<title>Bad Quality Code | George Karampelas</title>
+<meta name="title" content="Bad Quality Code" />
+<meta name="description" content="As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &ldquo;PURE&rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again." />
+<meta name="author" content="George Karampelas" />
+<meta name="keywords" content="" />
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta property="og:title" content="Bad Quality Code" />
+<meta property="og:description" content="As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &ldquo;PURE&rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/blogs/bad-quality-code-copy-3/" />
+
+<meta property="og:image" content="http://localhost:1313/images/social_card_bg_hu12030131252535697567.webp"/><meta property="article:section" content="blogs" />
+<meta property="article:published_time" content="2024-10-21T23:16:47+03:00" />
+<meta property="article:modified_time" content="2024-10-21T23:16:47+03:00" /><meta property="og:site_name" content="Bear Cub" />
+<meta property="fb:admins" content="0000000000" />
+
+
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="http://localhost:1313/images/social_card_bg_hu12030131252535697567.webp"/>
+<meta name="twitter:title" content="Bad Quality Code"/>
+<meta name="twitter:description" content="As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &ldquo;PURE&rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again."/>
+<meta name="twitter:site" content="@example"/>
+
+
+
+<meta itemprop="name" content="Bad Quality Code">
+<meta itemprop="description" content="As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &ldquo;PURE&rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again."><meta itemprop="datePublished" content="2024-10-21T23:16:47+03:00" />
+<meta itemprop="dateModified" content="2024-10-21T23:16:47+03:00" />
+<meta itemprop="wordCount" content="327">
+
+<meta itemprop="image" content="http://localhost:1313/images/social_card_bg_hu12030131252535697567.webp"/>
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  
+  <link href="/original.min.css" rel="stylesheet">
+
+  
+
+  
+
+  
+</head>
+
+<body>
+  <header><a class="skip-link" href="#main-content">Skip to main content</a>
+
+<a href="/" class="title"><h1>George Karampelas</h1></a>
+<nav>
+  <a href="/">Home</a>
+
+  <a href="/blogs/">Blogs</a>
+
+  <a href="/_contact/">Contact</a>
+
+<a href='http://localhost:1313/index.xml'>RSS</a>
+
+
+
+
+
+
+
+</nav>
+</header>
+  <main id="main-content">
+
+<h1>Bad Quality Code</h1>
+<p class="byline">
+  <time datetime='2024-10-21' pubdate>
+    2024-10-21
+  </time>
+  · George Karampelas
+</p>
+
+<content>
+  <p>As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &ldquo;PURE&rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.</p>
+<p>Let&rsquo;s talk with an example, you want to create a service that handle all the business logic of an entity and for one action this entity has numerous scenarios. As I believe it is a bad practice to use just a switch and split the code on numerous private methods to make the code look good, it is not. Do you know why?</p>
+<ul>
+<li>
+<p>I can&rsquo;t read it</p>
+</li>
+<li>
+<p>I can&rsquo;t maintain it</p>
+</li>
+<li>
+<p>I can&rsquo;t test it</p>
+</li>
+<li>
+<p>I can&rsquo;t extend it</p>
+</li>
+<li>
+<p>I can&rsquo;t reuse it</p>
+</li>
+<li>
+<p>I can&rsquo;t document it</p>
+</li>
+</ul>
+<p>For all these reasons it would be better to split this business logic one more services if it is necessary or you can use Strategy Pattern. Feel free to explore the huge world of programming.</p>
+<p>As I like, I code with TDD so I try to code the way I can test, obviously not using @Autowired. I write my basic scenarios with empty methods that I am gonna implement after my basic tests I start implement as I go my code is ugly and not perfect or acceptable for a merge request, but it works it passes the tests then I refactor my code to be more readable, maintainable and editable as the tests are green.</p>
+
+</content>
+<p>
+  
+</p>
+
+
+  <p>
+    <a href='mailto:george.karampelas.26@gmail.com?subject=Reply%20to%20"Bad%20Quality%20Code"'>
+      Reply to this post by email ↪
+    </a>
+  </p>
+
+
+
+  </main>
+  <footer><small>
+  George Karampelas (CC BY 4.0) | Made with <a href="https://github.com/clente/hugo-bearcub">Bear Cub</a>
+</small></footer>
+
+    
+</body>
+
+</html>
