@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutorial on George Karampelas</title>
+    <link>http://localhost:1313/tutorials/</link>
+    <description>Recent content in Tutorial on George Karampelas</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <managingEditor>george.karampelas.26@gmail.com (George Karampelas)</managingEditor>
+    <webMaster>george.karampelas.26@gmail.com (George Karampelas)</webMaster>
+    <copyright>George Karampelas (CC BY 4.0)</copyright>
+    <lastBuildDate>Mon, 21 Oct 2024 23:16:47 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tutorials/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to start!</title>
+      <link>http://localhost:1313/tutorials/tutorial/</link>
+      <pubDate>Mon, 21 Oct 2024 23:16:47 +0300</pubDate><author>george.karampelas.26@gmail.com (George Karampelas)</author>
+      <guid>http://localhost:1313/tutorials/tutorial/</guid>
+      <description>&lt;h3 id=&#34;yep-every-new-begining-is-more-difficult-than-you-though-after-midnigth&#34;&gt;Yep every new begining is more difficult than you though after midnigth.&lt;/h3&gt;&#xA;&lt;p&gt;But this is not mean that you can not be a programmer or to start your carrer as programmer, as I believe are small steps every day of learning something new, passion to spend hours infront of your dark theme (or white for the boomers) and eager to explore.&lt;/p&gt;&#xA;&lt;p&gt;If you have the patience to search on all the Stack over flow or chat with Chat GPT with hours, I&amp;rsquo;m sorry you are not a programmer.&#xA;Programmer is that guy that can understand your problem and solve it with technology, he is gonna chose a programming language, framework, database, host and every technology that fits more on your problem/idea&amp;hellip;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

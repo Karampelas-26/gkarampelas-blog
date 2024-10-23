@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Why-to- on George Karampelas</title>
+    <link>http://localhost:1313/tags/why-to-/</link>
+    <description>Recent content in Why-to- on George Karampelas</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <managingEditor>george.karampelas.26@gmail.com (George Karampelas)</managingEditor>
+    <webMaster>george.karampelas.26@gmail.com (George Karampelas)</webMaster>
+    <copyright>George Karampelas (CC BY 4.0)</copyright>
+    <lastBuildDate>Mon, 21 Oct 2024 23:16:47 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/why-to-/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bad employees for themselves</title>
+      <link>http://localhost:1313/articles/article/</link>
+      <pubDate>Mon, 21 Oct 2024 23:16:47 +0300</pubDate><author>george.karampelas.26@gmail.com (George Karampelas)</author>
+      <guid>http://localhost:1313/articles/article/</guid>
+      <description>&lt;p&gt;As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&amp;rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &amp;ldquo;PURE&amp;rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

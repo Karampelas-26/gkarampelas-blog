@@ -37,3 +37,8 @@ copyright = "George Karampelas (CC BY 4.0)"
     email = "george.karampelas.26@gmail.com"
 
 paginate = 5
+
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"

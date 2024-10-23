@@ -2,8 +2,14 @@
 date = '2024-10-21T23:16:47+03:00'
 draft = false
 title = 'Bad Quality Code'
+
+tags = ['quality-code']
+categories = ['code-philoshopher']
+
 [params]
     author = 'George Karampelas'
+    wikipedia = 'https://en.wikipedia.org/wiki/Bruce_Willis'
+
 +++
 
 As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that's my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of "PURE" implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.

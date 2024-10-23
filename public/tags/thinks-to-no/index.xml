@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thinks-to-No on George Karampelas</title>
+    <link>http://localhost:1313/tags/thinks-to-no/</link>
+    <description>Recent content in Thinks-to-No on George Karampelas</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <managingEditor>george.karampelas.26@gmail.com (George Karampelas)</managingEditor>
+    <webMaster>george.karampelas.26@gmail.com (George Karampelas)</webMaster>
+    <copyright>George Karampelas (CC BY 4.0)</copyright>
+    <lastBuildDate>Mon, 21 Oct 2024 23:16:47 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/thinks-to-no/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>One reason to NOT server Entity</title>
+      <link>http://localhost:1313/blog/why-to-use-dto/</link>
+      <pubDate>Mon, 21 Oct 2024 23:16:47 +0300</pubDate><author>george.karampelas.26@gmail.com (George Karampelas)</author>
+      <guid>http://localhost:1313/blog/why-to-use-dto/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
