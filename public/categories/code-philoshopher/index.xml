@@ -19,11 +19,11 @@
       <description>&lt;p&gt;As a programmer the last one and a half year, I am gonna say about something that everyone codes have said. Bad quality of code, yep that&amp;rsquo;s my topic. I am consider as the newest and lower seniority on my team, but after one and a half year of my career on the same project I miss my first days of just coding. Why? Because after some time of &amp;ldquo;PURE&amp;rdquo; implementation, testers found some bugs, something broken on production, change request from the client etc. Most of the times the problem is so small, bad quality of code that it is not readable maintainable and editable, for that reason you waste more time to understand the code than understand what the client asked again.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Bad Quality Code</title>
+      <title>One reason to NOT server Entity</title>
       <link>http://localhost:1313/blog/why-to-use-dto/</link>
       <pubDate>Mon, 21 Oct 2024 23:16:47 +0300</pubDate><author>george.karampelas.26@gmail.com (George Karampelas)</author>
       <guid>http://localhost:1313/blog/why-to-use-dto/</guid>
-      <description></description>
+      <description>&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;&#xA;&lt;p&gt;What is the DTO, is Data Transfer Object, you use it hide fields from entity in simple words.&lt;/p&gt;&#xA;&lt;h3 id=&#34;why-to-use-it&#34;&gt;Why to use it?&lt;/h3&gt;&#xA;&lt;p&gt;It is highly recomended to use DTO, for numerous reasons:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;To hide fields that are not used.&lt;/li&gt;&#xA;&lt;li&gt;To hide sensitive data from client.&lt;/li&gt;&#xA;&lt;li&gt;To be flexible on changes on future.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;And more reasons that you should use DTOs, I want to stay on the last one. Most times when we implement on API and we see that the client wants exactly the entity as response we may use the entity as response on the client, with the excuse why to use mappers, create new class, etc. Let&amp;rsquo;s disguss about that with an example, below is a class on Java.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

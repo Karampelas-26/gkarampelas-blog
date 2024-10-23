@@ -1,6 +1,6 @@
 +++
 date = '2024-10-21T23:16:47+03:00'
-draft = false
+draft = true
 title = 'How to start!'
 
 [params]

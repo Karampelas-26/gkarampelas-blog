@@ -4,9 +4,7 @@ menu: "main"
 weight: 1
 ---
 
-![gkarampelas](./profile-me.png)
-
-
+<!-- ![gkarampelas](./profile-me.png) -->
 Hi I am George,
 
 I am a Software Engineer, specialized on backend infrastructure using Java as main language, more specific Spring ecosystem.
